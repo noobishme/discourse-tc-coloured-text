@@ -14,10 +14,10 @@ export default {
 
       api.onToolbarCreate(toolbar => {
         toolbar.addButton({
-          id: "color_ui_button",
+          id: "mark_ui_button",
           group: "extras",
           icon: "palette",
-          perform: e => e.applySurround('[wrap=color color=# bgcolor=#]', '[/wrap]', 'color_ui_default_text')
+          perform: e => e.applySurround('[wrap=mark color=# bgcolor=#]', '[/wrap]', 'mark_ui_default_text')
         });
       });
 
@@ -35,7 +35,7 @@ export default {
               i.style.setProperty("--bgcolor", getVariable(i.dataset.bgcolor))
             );
         },
-        { id: "wrap-colors" }
+        { id: "wrap-mark" }
       );
     })
   }
