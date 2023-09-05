@@ -1,9 +1,9 @@
 {
-  "name": "Coloured Text",
+  "name": "Mark Text Highlighter",
   "about_url": "https://github.com/merefield/discourse-tc-coloured-text",
   "authors": ["merefield", "johani", "denvergeeks"],
   "component": true,
   "license": "MIT",
-  "about": "adds coloured text to Discourse posts",
+  "about": "adds <mark> highlighting to Discourse posts",
   "version": 0.1
 }
