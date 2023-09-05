@@ -4,6 +4,6 @@
   "authors": ["merefield", "johani", "denvergeeks"],
   "component": true,
   "license": "MIT",
-  "about": "adds <mark> highlighting to Discourse posts",
+  "about": "Adds <mark></mark> wrapper highlighting to Discourse posts",
   "version": 0.1
 }
